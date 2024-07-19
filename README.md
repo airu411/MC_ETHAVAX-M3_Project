@@ -1,4 +1,4 @@
-# MC_ETHAVAX_M3-Project
+# MC_ETHAVAX-M3_Project
 
 The project is ____.
 
