@@ -12,9 +12,12 @@ This is in fulfillment of the third module of the ETH + AVAX Intermediate course
 
 1. To start, you may use the coding editor and environment of your choosing. I used Remix.  
 
-2. If you're using Remix, create a new file by right-clicking on a blank space on the left-hand part and click `New File`, then set a name for the file.  
+2. If you're using Remix, create a new file by right-clicking on a blank space on the left-hand part and click `New File`, then set a name for the file. You may refer to figure [1](public\fig1.png).  
 
 3. On that newly-created `.sol` file, copy and paste the contents of the `SimpleERCTwentyToken.sol`. When you've done so, save the file.  
+
+![Figure 1](image.png)  
+*Figure 1: Creating a new file*
 
 ### How to Use
 
@@ -33,6 +36,9 @@ This is in fulfillment of the third module of the ETH + AVAX Intermediate course
   4.3. `renounceOwnership` - this doesn't take any parameter. If the owner were to call this, it would remove their ownership over the contract.  
   4.4. `transferFrom` - this takes three parameters: two addresses `from` and `to`, and uint256 `value`. This would allow tokens to be transferred from `from` to `to`.  
   4.5. `transferOwnership` - this takes one parameter: an address `newOwner`. This would transfer the ownership of the contract to `newOwner`.
+
+![Figure 2](public/fig2.png)  
+*Figure 2: All functions*
 
 ## Help
 
