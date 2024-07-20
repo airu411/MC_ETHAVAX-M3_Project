@@ -16,7 +16,7 @@ This is in fulfillment of the third module of the ETH + AVAX Intermediate course
 
 3. On that newly-created `.sol` file, copy and paste the contents of the `SimpleERCTwentyToken.sol`. When you've done so, save the file.  
 
-![Figure 1](image.png)  
+![Figure 1](public/fig1.png)  
 *Figure 1: Creating a new file*
 
 ### How to Use
