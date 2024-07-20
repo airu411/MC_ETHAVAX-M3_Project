@@ -45,9 +45,9 @@ This is in fulfillment of the third module of the ETH + AVAX Intermediate course
 If you run into any problems, you might want to check out the following documentations:
 
 [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.9/)  
-[Remix IDE Documentation](https://remix-ide.readthedocs.io/en/latest/)
+[Remix IDE Documentation](https://remix-ide.readthedocs.io/en/latest/)  
 [OpenZeppelin Documentation](https://docs.openzeppelin.com/)
 
-## Authors
+## Author
 
-- airu411
+airu411
