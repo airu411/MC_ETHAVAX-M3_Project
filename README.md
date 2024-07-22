@@ -12,11 +12,11 @@ This is in fulfillment of the third module of the ETH + AVAX Intermediate course
 
 1. To start, you may use the coding editor and environment of your choosing. I used Remix.  
 
-2. If you're using Remix, create a new file by right-clicking on a blank space on the left-hand part and click `New File`, then set a name for the file. You may refer to figure [1](public\fig1.png).  
+2. If you're using Remix, create a new file by right-clicking on a blank space on the left-hand part and click `New File`, then set a name for the file. You may refer to figure [1](public/fig1.png).  
 
 3. On that newly-created `.sol` file, copy and paste the contents of the `SimpleERCTwentyToken.sol`. When you've done so, save the file.  
 
-![Figure 1](image.png)  
+![Figure 1](public/fig1.png)  
 *Figure 1: Creating a new file*
 
 ### How to Use
@@ -25,7 +25,7 @@ This is in fulfillment of the third module of the ETH + AVAX Intermediate course
 
 2. Under `Deploy & run transactions`, simply click on `Deploy`. If you scroll down a bit on that part of the Remix IDE, you will see the deployed contract.  
 
-3. There are many functions that you may use. First, let's focus on the basic mint, burn, and transfer.  
+3. There are many functions that you may use as shown in figure [2](public/fig2.png). First, let's focus on the basic mint, burn, and transfer.  
   3.1. `mint` - this takes two parameters: an address `_account` and uint256 `_value`. This is called when the contract is deployed to initialize the supply of tokens. Calling this again would add more tokens to `_account` by the amount in `_value`. It has a modifier of `onlyOwner` so that only the contract owner can add.  
   3.2. `burn` - this takes one parameter: an uint256 `value`.This would reduce the total supply by the amount in `value`.  
   3.3. `transfer` - this takes two parameters: : an address `to` and uint256 `value`. This would transfer `value` tokens to `to`.  
@@ -44,9 +44,9 @@ This is in fulfillment of the third module of the ETH + AVAX Intermediate course
 If you run into any problems, you might want to check out the following documentations:
 
 [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.9/)  
-[Remix IDE Documentation](https://remix-ide.readthedocs.io/en/latest/)
+[Remix IDE Documentation](https://remix-ide.readthedocs.io/en/latest/)  
 [OpenZeppelin Documentation](https://docs.openzeppelin.com/)
 
-## Authors
+## Author
 
-- airu411
+airu411
