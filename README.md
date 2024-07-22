@@ -30,15 +30,14 @@ This is in fulfillment of the third module of the ETH + AVAX Intermediate course
   3.2. `burn` - this takes one parameter: an uint256 `value`.This would reduce the total supply by the amount in `value`.  
   3.3. `transfer` - this takes two parameters: : an address `to` and uint256 `value`. This would transfer `value` tokens to `to`.  
 
-4. There are also other functions.  
+4. There are also other transactional functions available.  
   4.1. `approve` - this takes two parameters: an address `spender` and uint256 `value`. This would allow `spender` to spend the amount of `value` tokens on behalf of another account.  
-  4.2. `burnFrom` - this takes two parameters: an address `account` and uint256 `value`. This would reduce the total supply by the amount in `value` by reducing the tokens of `address`.  
-  4.3. `renounceOwnership` - this doesn't take any parameter. If the owner were to call this, it would remove their ownership over the contract.  
-  4.4. `transferFrom` - this takes three parameters: two addresses `from` and `to`, and uint256 `value`. This would allow tokens to be transferred from `from` to `to`.  
-  4.5. `transferOwnership` - this takes one parameter: an address `newOwner`. This would transfer the ownership of the contract to `newOwner`.
+  4.2. `renounceOwnership` - this doesn't take any parameter. If the owner were to call this, it would remove their ownership over the contract.  
+  4.3. `transferFrom` - this takes three parameters: two addresses `from` and `to`, and uint256 `value`. This would allow tokens to be transferred from `from` to `to`.  
+  4.4. `transferOwnership` - this takes one parameter: an address `newOwner`. This would transfer the ownership of the contract to `newOwner`.
 
 ![Figure 2](public/fig2.png)  
-*Figure 2: All functions*
+*Figure 2: All functions*  
 
 ## Help
 
