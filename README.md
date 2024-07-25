@@ -4,7 +4,7 @@ The project is a smart contract for an ERC20 token.
 
 ## Description
 
-This is in fulfillment of the third module of the ETH + AVAX Intermediate course in Metacrafters. There was no provided starter project from Metacrafters. It makes use of the OpenZeppelin library. It imports 3 of their smart contracts: `ERC20.sol`, `ERC20Burnable.sol`, and `Ownable.sol`. The contract is able to mint, burn, and transfer, among other things.  
+This is in fulfillment of the third module of the ETH + AVAX Intermediate course in Metacrafters. There was no provided starter project from Metacrafters. It makes use of the OpenZeppelin library. It imports 2 of their smart contracts: `ERC20.sol` and `Ownable.sol`. The contract is able to mint, burn, and transfer, among other things.  
 
 ## Getting Started
 
